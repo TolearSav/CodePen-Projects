@@ -68,15 +68,11 @@ img {
   padding: 0.5px;
   width: 35px;
   height: 35px;
-  padding: 0px 0px;
-  margin: 0px;
   vertical-align:baseline;
-  list-style:none;
   border: 0px solid white;
-  background-color: none;
   border-radius: 100%;
   display: inline;
   transform: translateY(0px);
-  box-shadow: 4px 6px 6px 1px rgb(0 0 0 / 56%);
+  box-shadow: 4px 6px 6px 1px rgb(0 0 0 / 54%);
   transition: 0.7s;
 }
