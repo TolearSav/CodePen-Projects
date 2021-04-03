@@ -1,0 +1,82 @@
+body {
+  background-color: #9C9FD9;
+  font-family: 'Open Sans';
+  color: white;
+}
+
+section {
+  -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 0px 3px 35px 10px rgba(0,0,0,0); 
+box-shadow: 5px 5px 15px 5px #FF8080, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 0px 3px 35px 10px rgba(0,0,0,0);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  margin-top: 100px;
+  background-image: url("https://i.pinimg.com/originals/22/57/4d/22574d634c5f39847766b82ed66a932f.png");
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center
+}
+
+section h1 {
+  font-size: 20px;
+}
+
+section h2 {
+  text-align: center
+}
+
+header {
+  background-image: url("https://marketingweek.imgix.net/content/uploads/2017/05/12103909/Coding-body-image-.jpg?auto=compress,format&q=60&w=750&h=460");
+  background-size: cover;
+  height: 120px;
+  border-radius: 5px;
+}
+
+div {
+  padding: 15px;
+  border-radius: 5px;
+  margin: 15px;
+  border: 1px solid black;
+  background-image: url("https://i.pinimg.com/originals/22/57/4d/22574d634c5f39847766b82ed66a932f.png");
+  background-size: 500px;
+  text-align: left;
+}
+a:link {
+  color: white;
+  text-decoration:none
+}
+
+a:visited {
+  color: white;
+  text-decoration:none
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(-30%);
+  border: 8px solid white;
+}
+
+#img2, #img3, #img4 {
+  padding: 0.5px;
+  width: 35px;
+  height: 35px;
+  padding: 0px 0px;
+  margin: 0px;
+  vertical-align:baseline;
+  list-style:none;
+  border: 0px solid white;
+  background-color: none;
+  border-radius: 100%;
+  display: inline;
+  transform: translateY(0px);
+  box-shadow: 4px 6px 6px 1px rgb(0 0 0 / 56%);
+  transition: 0.7s;
+}

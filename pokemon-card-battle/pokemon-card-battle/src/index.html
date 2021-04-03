@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>
+        Imersão Dev - Aula 09
+    </title>
+</head>
+
+<body>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <div class="container">
+      <img class="logo" src="https://logodownload.org/wp-content/uploads/2017/08/pokemon-logo.png" alt="">
+        <h1 class="page-title">Quem vence essa batalha?</h1>
+        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+
+        <form id="form">
+            <h2>Escolha o seu atributo</h2>
+            <div class="wrapper">
+                <div id="placar"></div>
+                <div id="quantidade-cartas"></div>
+                <div id="cartas">
+                    <div id="carta-jogador" class="carta"></div>
+                    <div id="carta-maquina" class="carta"></div>
+                </div>
+                <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()"
+                    disabled="false">Jogar</button>
+            </div>
+            <div id="resultado"></div>
+            <button type="button" id="btnProximaRodada" onclick="proximaRodada()" disabled="true">Próxima
+                rodada</button>
+        </form>
+    </div> 
+</body>
+
+</html>
